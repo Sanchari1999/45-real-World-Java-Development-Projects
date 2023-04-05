@@ -115,3 +115,18 @@
     <li>create table bill(meter varchar(30), month varchar(30), total_bill varchar(30), status varchar(30));</li>
   </ul>
 </ol>
+
+<hr>
+
+<h3>Project Walkthrough:</h3>
+<ul>
+  <li>mysql-connector-java-8.0.27.jar: This library provides a JDBC driver for connecting to MySQL databases. It allows developers to connect to and interact with a MySQL database using Java code, enabling the creation of dynamic, data-driven applications.</li>
+  <li>rs2xml.jar: This library allows Java developers to convert Java ResultSets into XML documents. This is useful for exporting data from a database and sharing it with other systems that may not have direct access to the database.</li>
+  <li>Conn.java class: This Java class provides a database connection to a MySQL database with the username and password. It also creates a Statement object, which can be used to execute SQL queries against the database. The purpose of this class is to encapsulate the logic for connecting to the database and provide a simple and reusable way to obtain a database connection in a Java program.</li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
