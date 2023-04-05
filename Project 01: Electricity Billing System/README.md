@@ -96,22 +96,22 @@
   </ul>
   <li>Create Customer table to store information of customer:</li>
   <ul>
-    <li></li>
+    <li>create table customer(name varchar(30), meter varchar(30), address varchar(30), city varchar(30), email varchar(30), phone varchar(30));</li>
   </ul>
-  <li></li>
+  <li>Create meter_info table to store the meter information of the customer:</li>
   <ul>
-    <li></li>
+    <li>create table meter_info(meter_number varchar(30), meter_location varchar(30), meter_type varchar(30), phase_code varchar(30), bill_type varchar(30), days varchar(30));</li>
   </ul>
-  <li></li>
+  <li>Create tax to store the current tax structure:</li>
   <ul>
-    <li></li>
+    <li>create table tax(cost_per_unit varchar(30), meter_rent varchar(30), service_charge varchar(30), service_tax varchar(30), swacch_bharat_cess varchar(30), fixed_tax varchar(30));</li>
   </ul>
-  <li></li>
+  <li>Insert some values in your tax table:</li>
   <ul>
-    <li></li>
+    <li>insert into tax values('9', '47', '22', '57', '6', '18');</li>
   </ul>
-  <li></li>
+  <li>Create bill table to store the billing information of the customer:</li>
   <ul>
-    <li></li>
+    <li>create table bill(meter varchar(30), month varchar(30), total_bill varchar(30), status varchar(30));</li>
   </ul>
 </ol>
